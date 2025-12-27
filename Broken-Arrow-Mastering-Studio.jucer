@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JUCERPROJECT name="Broken Arrow Mastering Studio" projectType="guiapp" version="1.0.0"
+             companyName="Broken Arrow" companyWebsite="" companyEmail=""
+             useAppConfig="0" addUsingNamespaceToJuceHeader="0" cppLanguageStandard="c++20"
+             jucerFormatVersion="7">
+  <MAINGROUP id="g0" name="Source">
+    <FILE id="f0" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="" auFolder="" buildVST="0" buildAU="0" buildStandalone="1"/>
+    <VS2019 targetFolder="Builds/VisualStudio2019" vst3Folder="" buildVST="0" buildAU="0" buildStandalone="1"/>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile" vst3Folder="" buildVST="0" buildAU="0" buildStandalone="1"/>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+</JUCERPROJECT>
